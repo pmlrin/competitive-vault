@@ -1,0 +1,84 @@
+# =========================================================
+# .gitignore
+# =========================================================
+
+# ---------- VSCode ----------
+# 忽略 VSCode 配置
+.vscode/*
+*.code-workspace
+
+# ---------- JetBrains / 其他 IDE ----------
+.idea/
+*.iml
+.vs/
+*.ipch
+
+# ---------- C/C++ 编译产物 ----------
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+a.out
+*.out
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+
+# CMake / Make / 构建目录
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# clangd / 编译缓存
+.cache/
+.clangd/
+
+# Competitive Programming Helper 等插件缓存
+.cph/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------- Java ----------
+*.class
+*.jar
+target/
+out/
+
+# ---------- 临时文件 / 日志 / 备份 / 其他 ----------
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+*.orig
+*.rej
+*.doc
+*.docx
+
+# ---------- 操作系统文件 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ---------- 测试数据 ----------
+
+*.in
+*.out
+*.ans
